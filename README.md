@@ -22,7 +22,7 @@ qr-code-generator/
 ├── index.html       # Main HTML page
 ├── style.css        # Dark-mode styles and layout
 ├── script.js        # QR generation & download logic
-└── icon.png      # (Optional) Favicon for the site
+└── icon.png         # Icon for the site
 ```
 ---
 
