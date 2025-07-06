@@ -8,6 +8,11 @@ A **frontend-only** web application that allows users to generate and download Q
 
 You can view a live demo here: *[GitHub Pages URL](https://rak1403.github.io/qr-code-generator/)*
 
+![Screenshot 2025-07-06 214920](https://github.com/user-attachments/assets/b56566a2-b8ba-42b2-8c6b-1f61d29e84ef)
+
+![Screenshot 2025-07-06 214942](https://github.com/user-attachments/assets/68802b98-5a2d-44d8-ba9c-43ad7524c1b9)
+
+
 ---
 
 ## 📂 Project Structure
