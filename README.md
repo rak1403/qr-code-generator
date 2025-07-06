@@ -6,7 +6,7 @@ A **frontend-only** web application that allows users to generate and download Q
 
 ## 🔗 Live Demo
 
-You can view a live demo here: *[GitHub Pages URL goes here](https://rak1403.github.io/qr-code-generator/)*
+You can view a live demo here: *[GitHub Pages URL](https://rak1403.github.io/qr-code-generator/)*
 
 ---
 
@@ -19,41 +19,6 @@ qr-code-generator/
 ├── script.js        # QR generation & download logic
 └── icon.png      # (Optional) Favicon for the site
 ```
-
----
-
-## 🚀 Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-* A modern web browser (Chrome, Firefox, Safari, Edge)
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/rak1403/qr-code-generator.git
-   cd qr-code-generator
-   ```
-
-2. **Open `index.html`**
-
-   * Simply double-click the `index.html` file, or
-   * Serve it via a simple HTTP server:
-
-     ```bash
-     npx http-server .   # requires Node.js
-     ```
-
-3. **Start generating QR codes!**
-
-   * Type your text or URL into the input box.
-   * Click **Generate QR**.
-   * Click **Download QR Code** to save it as a PNG.
-
 ---
 
 ## ⚙️ Features
