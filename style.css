@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: #121212;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #1e1e1e;
+  padding: 32px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  text-align: center;
+  width: 320px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#qrInput {
+  display: block;
+  width: 80%;
+  max-width: 280px;
+  margin: 0 auto 16px;
+  padding: 10px 12px;
+  font-size: 15px;
+  color: #f1f1f1;
+  background: #2a2a2a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+#qrInput:focus {
+  border-color: #007bff;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-top: 12px;
+  color: #fff;
+}
+
+button[onclick="generateQR()"] {
+  background: #007bff;
+}
+button[onclick="generateQR()"]:hover {
+  background: whitesmoke;
+  color: #000;
+}
+#downloadBtn {
+  background: #333;
+}
+#downloadBtn:hover {
+  background: white;
+  color: #000;
+}
+
+#qrcode {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
